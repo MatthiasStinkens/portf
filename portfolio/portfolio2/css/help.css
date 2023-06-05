@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Candara Light",sans-serif;
+}
+#kleine_tekst_over_mezelf{
+    position: absolute;
+    top: 130px;
+    height: 50px;
+    width: 400px;
+    left: 200px;
+    right: 150px;
+    float: left;
+}
+
+.zoekbalk a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+}
+.zoekbalk a:hover {
+    background-color: darkred;
+    color: #f2f2f2;
+    border: 1px solid black;
+
+}
+
+
+#achtergrond{
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 100px;
+    text-align: left;
+    font-size: 2rem;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+body{
+    background-color: #FF6961;
+}
+
+
+.naam {
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 50px;
+}
+
+.profiel {
+    float: right;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    height: 100px;
+}
+
+
+
+
+.div_kleine_tekst_over_mezelf{
+    position: absolute;
+    top: -100px;
+    height: 1700px;
+    width: 800px;
+    left: 300px;
+    right: 50px;
+}
+
+
+.arbeidsmarkt{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    height: 100px;
+}
+.motivatie{
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    height: 100px;
+}
+.motivatie_waarden_Kernkwadranten{
+    position: absolute;
+    top: 400px;
+    right: 10px;
+    height: 100px;
+}
+.feedback{
+    position: absolute;
+    top: 500px;
+    right: 10px;
+    height: 100px;
+}
+.reflectie_seminaris{
+    position: absolute;
+    top: 600px;
+    right: 10px;
+    height: 100px;
+}
+.terug_naar_vorige_pagina_gaan{
+    position: absolute;
+    top: 340px;
+    left: 1px;
+    height: 50px;
+    border: 5px black;
+}
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    margin-top: auto;
+    bottom: 0;
+}
+
+.terug_naar_vorige_pagina_gaan:hover{
+    background-color: black;
+    color: #e40515;
+}
+.terug_naar_vorige_pagina_gaan{
+    border: 5px solid black;
+}
+.naar_volgende_pagina_gaan{
+    border: 5px solid black;
+    padding: 100px;
+}
+.naar_volgende_pagina_gaan:hover{
+    background-color: black;
+    color: #e40515;
+}
+.arbeidsmarkt{
+    border: 5px solid black;
+    padding: 5px;
+    height: 50px;
+}
+.arbeidsmarkt:hover{
+    background-color: black;
+    color: #e40515;
+}
+.motivatie{
+    border: 5px solid black;
+    padding: 5px;
+    height: 50px;
+}
+.motivatie:hover {
+    background-color: black;
+    color: #e40515;
+}
+.motivatie_waarden_Kernkwadranten{
+    border: 5px solid black;
+    padding: 5px;
+    height: 50px;
+}
+.motivatie_waarden_Kernkwadranten:hover {
+    background-color: black;
+    color: #e40515;
+}
+.feedback{
+    border: 5px solid black;
+    padding: 5px;
+    height: 50px;
+}
+.feedback:hover {
+    background-color: black;
+    color: #e40515;
+}
+.reflectie_seminaris{
+    border: 5px solid black;
+    padding: 5px;
+    height: 50px;
+}
+.reflectie_seminaris:hover {
+    background-color: black;
+    color: #e40515;
+}
+#grote_tekst_zelf_reflectie {
+    margin: auto;
+    height: 460px;
+    width: 1000px;
+    overflow: scroll;
+    left: 1px;
+    right: 100px;
+    top: 200px;
+    position: absolute;
+    background-color: white;
+}
+@media sreen and(max-width: 844px){
+
+}
+@media screen and (max-width: 1180px){
+}
+@media screen and (max-width: 1920px){
+}
+
+
+#linkedin{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    width: 200px;
+}
+#instagram{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    width: 200px;
+}
+
+#cv{
+    background-color: darkred;
+    padding: 15px 20px;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+
